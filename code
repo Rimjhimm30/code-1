@@ -1,0 +1,12 @@
+odd_sum = 0
+    even_sum = 0
+    while k > 0:
+        if digit % 2 == 0:
+            even_sum += digit
+        else:
+            odd_sum += digit
+    total = odd_sum + even_sum
+    return odd_sum, even_sum, total
+k = int(input("Enter the value of 'k': "))
+odd_sum, even_sum, total = calculate_sums_and_total(k)
+print("Output: format(odd_sum, even_sum, total))
