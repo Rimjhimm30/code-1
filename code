@@ -1,6 +1,7 @@
 odd_sum = 0
     even_sum = 0
     while k > 0:
+digit%10
         if digit % 2 == 0:
             even_sum += digit
         else:
